@@ -62,15 +62,7 @@ inputs:
     git_data_dir: data
   - class: InputSdmxMeta
     meta_suffix: __GLOBAL
-# Metadata Schema
-# This inputs multiple metadata schema to control which metadata tabs
-# the various fields appear in (eg, National, Global, Sources)
-schema:
-  - class: SchemaInputOpenSdg
-    schema_path: _prose.yml
-#  - class: SchemaInputSdmxMsd
-#    schema_path: SDG_MSD.xml
-#    scope: national
+
 # Translations
 # ------------
 # The allows control over the imported translations. This can be omitted if you
