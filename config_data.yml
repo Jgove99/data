@@ -42,14 +42,6 @@ inputs:
   - class: InputSdmxMl_Multiple
     # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: 'data/*.xml'
-    dimension_map:
-      REF_AREA|GH: ''
-    drop_dimensions:
-      - SOURCE_DETAIL
-      - NATURE
-      - FREQ
-      - REPORTING_TYPE
-    drop_singleton_dimensions: true
     dsd: 'localRegistry.xml'
     import_codes: true
   - class: InputWordMeta
