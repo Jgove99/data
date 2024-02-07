@@ -65,9 +65,6 @@ inputs:
 # Metadata Schema
 # This inputs multiple metadata schema to control which metadata tabs
 # the various fields appear in (eg, National, Global, Sources)
-schema:
-  - class: SchemaInputOpenSdg
-    schema_path: _prose.yml
 #  - class: SchemaInputSdmxMsd
 #    schema_path: SDG_MSD.xml
 #    scope: national
