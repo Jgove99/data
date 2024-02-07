@@ -39,13 +39,13 @@ src_dir: ''
 # folder. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
 inputs:
+  inputs:
   - class: InputSdmxMl_Multiple
-    # This describes the data files, relative to the "src_dir" indicated above.
     path_pattern: 'data/*.xml'
-    dsd: 'localRegistry.xml'
+    dsd: 'LocalRegistry.xml'
     import_codes: true
-  - class: InputWordMeta
-    path_pattern: meta/*-*.docm
+    import_series_attributes: true
+    import_observation_attributes: true
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
     git: false
