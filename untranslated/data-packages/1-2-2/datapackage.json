@@ -12,61 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "SERIES",
-            "type": "string"
-          },
-          {
-            "name": "REF_AREA",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_Coastal",
-                "_L_GH_Forest",
-                "_L_GH_Savannah",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Y0T17",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "URBANISATION",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "R",
-                "U",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COMPOSITE_BREAKDOWN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_L_GH_ICT",
-                "_L_GH_HOUSING",
-                "_L_GH_SANITATION",
-                "_L_GH_WATER",
-                "_L_GH_PROTECTION",
-                "_L_GH_DEVELOPMENT",
-                "_L_GH_HEALTH",
-                "_L_GH_NUTRITION",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",
