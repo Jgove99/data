@@ -44,8 +44,6 @@ inputs:
     dimension_map:
       REF_AREA|MA: ''
     drop_dimensions:
-      - SOURCE_DETAIL
-      - NATURE
       - FREQ
       - REPORTING_TYPE
     import_codes: true
