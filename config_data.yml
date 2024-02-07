@@ -20,7 +20,7 @@ site_dir: _site
 # -----------
 # This identifies a file containing the schema (possible fields) for metadata.
 # Currently this needs to be a prose.io config, and defaults to '_prose.yml'.
-schema_file: metadata_schema.yml
+schema_file: _prose.yml
 
 # Source directory
 # ----------------
@@ -43,7 +43,12 @@ inputs:
     path_pattern: 'data/*.xml'
     dsd: 'LocalRegistry.xml'
     dimension_map:
-      REF_AREA|ZW: ''
+      REF_AREA|MA: ''
+    drop_dimensions:
+      - SOURCE_DETAIL
+      - NATURE
+      - FREQ
+      - REPORTING_TYPE
     import_codes: true
     import_series_attributes: true
     import_observation_attributes: true
