@@ -50,7 +50,7 @@ inputs:
       - FREQ
       - REPORTING_TYPE
     drop_singleton_dimensions: true
-    dsd: 'GSS_DSD.xml'
+    dsd: 'localRegistry.xml'
     import_codes: true
   - class: InputWordMeta
     path_pattern: meta/*-*.docm
