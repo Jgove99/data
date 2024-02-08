@@ -42,6 +42,11 @@ inputs:
   - class: InputSdmxMl_Multiple
     path_pattern: 'data/*.xml'
     dsd: 'LocalRegistry.xml'
+    dimension_map:
+      REF_AREA|(YOUR COUNTRY CODE)
+    drop_dimensions:
+      - FREQ
+      - REPORTING_TYPE
     import_codes: true
     import_series_attributes: true
     import_observation_attributes: true
